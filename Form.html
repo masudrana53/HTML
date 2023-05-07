@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-size: 15px;
+        }
+
+        legend{
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 400;           
+       }
+
+       body{
+        background-color: aquamarine;
+        background-image:url(trees.jpg);
+        background-repeat: no-repeat;
+        
+       }
+    </style>
+
+</head>
+<body>
+   
+    <pre>
+    <fieldset>
+            <legend>Student Reg Form</legend>
+
+    <form action="#">
+        <label for="Name">Name</label> 
+        <input type="text">
+        <label for="email">Email</label> 
+        <input type="email">
+        <label for="cell">Cell No</label> 
+        <input type="text">
+        
+        <label for="gender">Gender:</label> 
+        <input type="radio" name="gender"> <label for="male">Male</label> 
+        <input type="radio" name="gender"> <label for="female">Male</label>  
+        <input type="radio" name="gender"> <label for="other">Other</label>
+        
+        <label for="hobby">Hobby:</label>
+        <input type="checkbox" value="Football"> <label for="football">Football</label>
+        <input type="checkbox" value="Reading"> <label for="reading">Reading</label>
+        <input type="checkbox" value="Riding"> <label for="riding">Riding</label>
+
+        <label for="subject">Subject:</label>
+        <select name="" id="">
+            <option value="select">--Secelct One--</option>
+            <option value="jee">JEE</option>
+            <option value="gave">GAVE</option>
+            <option value="C#NET">C.Net</option>
+            <option value="php">PHP</option>
+        </select>  
+        
+        <label for="about you">About You</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+       
+        <input type="submit" value="Submit">
+        <button>Press Sumbit</button>
+
+    </form>
+    </fieldset>
+    </pre>
+
+
+</body>
+
+</html>
