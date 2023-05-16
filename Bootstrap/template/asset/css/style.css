@@ -1,0 +1,17 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+  *{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .breadcrumb> li + li:before{
+    color: #6e1616;
+    content: "/ ";
+    padding: 0 5px;
+  }
+
+  .a{
+    color: aqua;
+  }
+
+  
