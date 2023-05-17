@@ -1,0 +1,38 @@
+
+   /* for table */
+   table{
+        margin: 10% auto;
+        width: 40%; 
+        height: 200px;
+   }
+   
+   table tr{
+    text-align: center;
+   }
+   
+   
+   /* for form */
+   legend{
+        text-align: center;
+    }
+
+    form{
+        margin: 0% auto;
+        width: 30%;
+    }    
+    
+    /* for question 03 */
+    #menu{
+            width: 30%;
+            height: 100px;
+        }
+       
+
+        #frame{
+            width: 70%;
+            height: 100px;
+            float: right;
+        }
+
+        
+

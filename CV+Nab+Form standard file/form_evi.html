@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_evi</title>
+    <link rel="stylesheet" href="formstylesheet.css">
+    <link rel="stylesheet" href="navstylesheet.css">
+
+</head>
+<body>
+   
+<!-- navbar start here -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="navbar_evi.html">Home</a></li>
+            <li><a href="CV_evidence.html">CV</a></li>
+            <li><a href="table_evi.html">Table</a></li>
+            <li><a href="form_evi.html.">Registration Form</a></li>
+        </ul>
+    </nav>
+</header>    
+
+
+    <!-- Reservation Form -->
+    <h2>Reservation Form</h2>
+    <p>*denote mandotery</p>
+    <form action="#" maethod="get">
+        First Name: <br>
+        <input type="text" name="fname" id="" placeholder="First Name"><br>
+        Email Address: <br>
+        <input type="email"required placeholder="Email Address"><br>
+        Select Tour Package: <br>
+        <select name="tour" id="">
+            <option value="Goa">Goa</option>
+            <option value="London">London</option>
+            <option value="Cox-bazar">Cox-Bazar</option>
+        </select> <br>
+        Arrival Date: <br>
+        <input type="date" required><br>
+        Number of person: <br>
+        <input type="number" `placeholder="Number of person"><br>
+        What would you want to avail?<br>
+        Boarding <input type="checkbox"><br>
+        Fooding <input type="checkbox"><br>
+        Sightseeing <input type="checkbox"><br>
+        Discount Coupon Code: <br>
+        <input type="text" placeholder="Discount Coupon Code"><br>
+        Terms and conditions: <br>
+        <label for="agree"><input type="radio" id="agree">Boarding </label>
+        <label for="disagree"><input type="radio" id="disagree">Fooding </label>
+        <br>
+        <button type="submit">Complete Reservation</button>
+</body>
+</html>

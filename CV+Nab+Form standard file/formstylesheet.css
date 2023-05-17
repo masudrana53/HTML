@@ -1,0 +1,40 @@
+
+h2, p{
+    text-align: center;
+}
+
+form{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 10px 30px 0 #b9b4b9; 
+
+}
+
+        input,
+        select{
+            margin: 10px 0;
+        }
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"]
+    {
+        width: 100%;
+    }
+select{
+    width: 100%;
+}
+
+input[type="checkbox" i] {
+    margin: 0 5px;
+}
+input[type="radio" i]{
+margin: 0 5px;
+}
+button{
+margin: 10px 0;
+}
