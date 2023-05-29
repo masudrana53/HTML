@@ -9,3 +9,12 @@
 i{
     color: white;
 }
+
+.homee{
+    height: 100vh;
+    width: 100%;
+   background-image: url(../img/main.jpg);
+   background-size: cover;
+   position: 50% 50%;
+
+}
