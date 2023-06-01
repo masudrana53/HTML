@@ -2,7 +2,7 @@
    /* for table */
    table{
         margin: 10% auto;
-        width: 40%; 
+        width: 80%; 
         height: 200px;
    }
    
@@ -18,7 +18,7 @@
 
     form{
         margin: 0% auto;
-        width: 30%;
+        width: 40%;
         
     }  
     
@@ -38,6 +38,9 @@
             height: 100px;
             float: right;
         }
-
+    
+        .nav-link{
+            font-weight: 600;
+        }
         
 

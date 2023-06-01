@@ -16,7 +16,7 @@
   
   <!-- start header -->
     <!-- star navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top px-4" style="background-color: rgb(242, 214, 214);">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top px-4" style="background-color: rgb(245, 211, 211);">
       <div class="container-fluid">
           <a class="navbar-brand" href="#home" style="color: black;"><h3>G-Sports</h3></a>
                       
@@ -37,20 +37,20 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact" style="color: black">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#exampleModal" style="color: black" data-bs-toggle="modal" data-bs-target="#exampleModal">Registration Form</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black">
-                Dropdown
+                Find More
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="additional file/form.html" target="_blank">Form</a></li>
-                <li><a class="dropdown-item" href="additional file/table.html" target="_blank">Table</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#" style="color: black">Something else here</a></li>
+                <li><a class="dropdown-item" href="additional file/form.html" target="_blank">Item01</a></li>
+                <li><a class="dropdown-item" href="additional file/table.html" target="_blank">Item02</a></li>
+                
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1"aria-disabled="true"style="color: black">Disabled</a>
-            </li>
+            
           </ul>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,6 +60,9 @@
       </div>
     </nav>
     <!-- end navbar -->
+
+
+    <marquee behavior="" direction="">We didn't come here to play; we came here to win -------------------------- We didn't come here to play; we came here to win</marquee>
 
 
   <section id="home">
@@ -81,7 +84,7 @@
 
     <!-- start player achievement -->
     
-    <section id="achievement" style="background-color: rgb(245, 224, 224);">     
+    <section id="achievement" class="py-5" style="background-color: rgb(245, 224, 224);">     
       <div class="container py-5" >        
           <div class="row text-center g-4">
             <div class="row">
@@ -152,7 +155,7 @@
 
 
 <!-- start game & feature -->
-  <section id="feature">
+  <section id="feature" class="py-5">
     <div class="container py-5">
       <div class="row justify-content-between align-items-center">
        
@@ -196,7 +199,7 @@
 
 
   <!-- contact here -->
-  <section id="contact" class="py-3" style="background-color: rgb(119, 15, 20);">
+  <section id="contact" class="py-3" style="background-color: rgb(120, 13, 18);">
     <div class="container py-5">
         <div class="row justify-content-between align-items-center"> 
             <div class="col-md">
@@ -231,6 +234,47 @@
     </div>
 </section>
 <!-- end contact -->
+
+<!-- 
+Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#home">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" data-bs-dismiss="modal" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- start footer -->
